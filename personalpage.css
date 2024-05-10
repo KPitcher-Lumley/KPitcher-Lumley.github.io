@@ -33,12 +33,38 @@ body
 {
     text-align: center;
     background-color: #848FA5;
+    color: #2D2D2A;
 }
 
 header
 {
     color: #2D2D2A;
+    font-size: 60px;
 }
+
+h1
+{
+    color: #2D2D2A;
+    font-size: 40px;
+}
+
+h2
+{
+    color: #2D2D2A;
+    font-size: 30px;
+}
+
+
+a:link
+{
+    color: #E5DCC5;
+}
+
+a:visited
+{
+    color: #2D2D2A;
+}
+
 
 
 ul 
@@ -63,6 +89,7 @@ ul
 .navElement
 {
     margin: auto;
+    font-size: 35px;
 }
 
 #progLangDiv, #platDiv, #osDiv
@@ -76,14 +103,14 @@ ul
     border-radius: 15px;
 }
 /* Style for hiding skill stuff */
-.hovHide
+.hovShow
 {
     background-color: #C14953;
     columns: 200px 2;
     color: #E5DCC5;
 }
 
-.hovHide li
+.hovShow li
 {
     margin: auto;
     padding: 5%;
