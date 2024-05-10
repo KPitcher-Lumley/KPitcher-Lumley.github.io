@@ -7,42 +7,83 @@
     <title>Projects</title>
 
     <link rel="stylesheet" href="./personalpage.css">
+
+    <!-- Brower ICON -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- Font Awesome link  -->
+    <script src="https://kit.fontawesome.com/8399bd345a.js" crossorigin="anonymous"></script>
 </head>
 
 
-<body id="projBody">
+<body id="projectsBody">
 
-    <header id="projMain">
+    <nav id="navBAR">  
+        <ul id="navBarList">
+
+            <li class="navElement">
+                <a href="./index.html" title="Return to Home Page">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+            </li>
+
+            <li class="navElement">
+                <a class="link" href="#" title="Projects">
+                    <i class="fa-solid fa-folder-open"></i>
+                </a>
+            </li>
+
+            <li class="navElement">
+                <a class="link" href="./social.html" title="Contact Me">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+
+    <header id="projheader">
         <h1>Projects</h1>
     </header>
 
-    <section id="proj1">
-        <h2>Make Page Green (Place holder)</h2>
-        <p>Project Makes page background grren</p>
-        <a href="./placeholderproj/pl1.html"><img class="projImg" src="./images/ph1.png" alt="place holder 1 img"></a>
+    <section id="digital meterstick-project">
+        <h2>Digital Meterstick</h2>
+        <p> FILL OUT LATER </p>
+        <figure>
+
+            <figcaption class="Photo-Caption">Digital Meterstick</figcaption>
+            <span class="Photo-Credit">Images by Kaiden Pitcher-Lumley</span>  <!-- Add link to Jospehs website or something with this??-->
+        </figure>
     </section>
 
-    <section id="proj2">
-        <h2>Make Text Show (Place Holder)</h2>
-        <p>Project Makes page alerta showing a message</p>
+
+    <section id="adios-project">
+        <h2>ADIOS</h2>
+        <p>
+            Built by Joseph Limin, David Ma, and myself; ADIOS is a game case dispensing system built to make retreival of game cases easier. The project was built 
+            using our knowledge on embeded systems, circuit design and website design. The system consists of custom designed trays, hardware mounts, stepper and 
+            servo motors as well as other various other IC's all run by two ESP32's talking to each other over a serial conection.
+        </p>
+
+        <figure>
+            <img src="./images/Front.png" alt="ADIOS_FRONTVIEW" width="45%">
+            <img src="./images/Right.png" alt="ADIOS_RIGHTVIEW" width="45%">
+            <img src="./images/Back.png" alt="ADIOS_BACKVIEW" width="45%">
+            <img src="./images/Left.png" alt="ADIOS_LEFTVIEW" width="45%">
+            <figcaption class="Photo-Caption">ADIOS shelf</figcaption>
+            <span class="Photo-Credit">Images by Joseph Limin</span>  <!-- Add link to Jospehs website or something with this??-->
+        </figure>
         
-        <a href="./placeholderproj/pl2.html"><img class="projImg" src="./images/ph2.png" alt=""></a>
-    </section>
-
-    <section id="proj3">
-        <h2>test site</h2>
-        <p>Project exists for experimenting with new stuff </p>
         
-        <a href="../Websites/test_page_1/index.html">TETST PROJ</a>
+
     </section>
 
-    <footer id="projFoot">
+    <footer id="projFooter">
         &copy;Kaiden Pitcher-Lumley
         <br>
-        <h5>Last Modified:</h5>
-        <script>document.querySelector('footer').innerHTML+=document.lastModified;</script>
-        <br>
-        <a id="activeColor" href="./index.html">Return to Home</a>
+        <a href="./index.html">Return to Home</a>
     </footer>
     
 </body>

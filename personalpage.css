@@ -26,4 +26,76 @@
 
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    text-align: center;
+}
+
+
+ul 
+{
+    list-style-type: none;
+}
+
+#navBAR ul
+{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#navBAR ul li
+{
+    display: inline;
+}
+
+
+.navElement
+{
+    margin-right: 5%;
+}
+
+#progLangDiv, #platDiv, #osDiv
+{
+    box-sizing: border-box;
+}
+
+/* Style for hiding skill stuff */
+.hovHide
+{
+    columns: 200px 2;
+}
+
+
+
+#skillSec
+{
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 1200px) {
+    #skillSec 
+    { 
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    #langList, #platList, #otherList 
+    {
+        transition: opacity 0.5s;
+        opacity: 0;
+    }
+
+
+    #langList:hover, #platList:hover, #otherList:hover 
+    {
+        transition: opacity 0.5s;
+        opacity: 1;
+    }
 }
