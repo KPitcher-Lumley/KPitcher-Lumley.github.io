@@ -1,10 +1,10 @@
 
 /* colors
--#780000 dark red
--#FDF0D5 white beige ish
--#669BBC teal gray
--#003049 dark navy teal
--#C1121F red orange
+-#2D2D2A  Jet -> dark grey
+-#4C4C47  Davy's Grey -> brownish grey
+-#848FA5  Cool Grey -> blueish grey
+-#C14953 Bitter sweet shimmer -> light redish
+-#E5DCC5 Pearl -> beige white
 */
 
 
@@ -23,7 +23,6 @@
 /* font-family: 'Chakra Petch', sans-serif; */
 
 
-
 html {
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -33,6 +32,12 @@ html {
 body
 {
     text-align: center;
+    background-color: #848FA5;
+}
+
+header
+{
+    color: #2D2D2A;
 }
 
 
@@ -57,7 +62,7 @@ ul
 
 .navElement
 {
-    margin-right: 5%;
+    margin: auto;
 }
 
 #progLangDiv, #platDiv, #osDiv
@@ -68,7 +73,9 @@ ul
 /* Style for hiding skill stuff */
 .hovHide
 {
+    background-color: #C14953;
     columns: 200px 2;
+    color: #E5DCC5;
 }
 
 
