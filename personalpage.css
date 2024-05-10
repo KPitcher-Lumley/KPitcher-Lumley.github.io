@@ -1,10 +1,10 @@
 
 /* colors
--#2D2D2A  Jet -> dark grey
--#4C4C47  Davy's Grey -> brownish grey
+-#101419    Rich Black 
+-#0C1B33    Oxford Blue
+-#C0E5C8    Tea Green
+-#C0303C     Cardinal
 -#848FA5  Cool Grey -> blueish grey
--#C14953 Bitter sweet shimmer -> light redish
--#E5DCC5 Pearl -> beige white
 */
 
 
@@ -24,14 +24,14 @@ html {
 body
 {
     text-align: center;
-    background-color: #848FA5;
-    color: #2D2D2A;
+    background-color: #0C1B33;
+    color: #C0E5C8;
     font-family: "Montserrat", sans-serif;
 }
 
 header
 {
-    color: #2D2D2A;
+    color: #C0303C;
     font-size: 60px;
     font-family: "Lugrasimo", cursive;
     font-weight: 700;
@@ -39,7 +39,7 @@ header
 
 h1
 {
-    color: #2D2D2A;
+    color: #C0303C;
     font-size: 40px;
     font-family: "Lugrasimo", cursive;
     font-weight: 500;
@@ -47,7 +47,7 @@ h1
 
 h2
 {
-    color: #2D2D2A;
+    color: #C0303C;
     font-size: 30px;
     font-family: "Lugrasimo", cursive;
     font-weight: 300;
@@ -55,7 +55,7 @@ h2
 
 h3
 {
-    color: #2D2D2A;
+    color: #101419;
     font-size: 20px;
     font-family: "Lugrasimo", cursive;
     font-weight: 200;
@@ -106,13 +106,13 @@ ul
 
 .skillcard
 {
-    background-color: #C14953;
+    background-color: #848FA5;
     border-radius: 15px;
 }
 /* Style for hiding skill stuff */
 .hovShow
 {
-    background-color: #C14953;
+    background-color: #848FA5;
     columns: 200px 2;
     color: #E5DCC5;
 }
