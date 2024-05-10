@@ -42,7 +42,7 @@ header
 h1
 {
     color: #C0303C;
-    font-size: 40px;
+    font-size: 50px;
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
 }
@@ -50,7 +50,7 @@ h1
 h2
 {
     color: #C0303C;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Space Grotesk", sans-serif;
     font-weight: 300;
 }
@@ -58,9 +58,9 @@ h2
 h3
 {
     color: #101419;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Space Grotesk", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 
