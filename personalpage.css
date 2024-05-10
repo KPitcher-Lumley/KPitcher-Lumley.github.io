@@ -63,6 +63,12 @@ h3
     font-weight: 400;
 }
 
+#eduInfo
+{
+    max-width: 75%;
+    margin: auto;
+}
+
 
 a:link
 {
