@@ -70,12 +70,23 @@ ul
     box-sizing: border-box;
 }
 
+.skillcard
+{
+    background-color: #C14953;
+    border-radius: 15px;
+}
 /* Style for hiding skill stuff */
 .hovHide
 {
     background-color: #C14953;
     columns: 200px 2;
     color: #E5DCC5;
+}
+
+.hovHide li
+{
+    margin: auto;
+    padding: 5%;
 }
 
 
