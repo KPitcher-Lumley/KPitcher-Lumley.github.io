@@ -11,16 +11,8 @@
 /* fonts */
 
 /* use for headings */
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-/* font-family: 'Silkscreen', cursive; */
-
-
-@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
-/* 
-
-/* generic use */
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap');
-/* font-family: 'Chakra Petch', sans-serif; */
+/*  font-family: "Lugrasimo", cursive;  */
+/*  font-family: "Lugrasimo", cursive;  */
 
 
 html {
@@ -34,24 +26,39 @@ body
     text-align: center;
     background-color: #848FA5;
     color: #2D2D2A;
+    font-family: "Montserrat", sans-serif;
 }
 
 header
 {
     color: #2D2D2A;
     font-size: 60px;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 700;
 }
 
 h1
 {
     color: #2D2D2A;
     font-size: 40px;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 500;
 }
 
 h2
 {
     color: #2D2D2A;
     font-size: 30px;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 300;
+}
+
+h3
+{
+    color: #2D2D2A;
+    font-size: 20px;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 200;
 }
 
 
